@@ -1,0 +1,44 @@
+{
+  "name": "m7-d4-ejemplo-app",
+  "version": "1.0.0",
+  "description": "Ejemplo web service usando express, pg y handlebars.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NelsonRamirezC/m7-d4-ejemplo-app.git"
+  },
+  "keywords": [
+    "express",
+    "handlebars",
+    "postgresql",
+    "pg",
+    "cors",
+    "morgan"
+  ],
+  "author": "Nelson Ramírez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NelsonRamirezC/m7-d4-ejemplo-app/issues"
+  },
+  "homepage": "https://github.com/NelsonRamirezC/m7-d4-ejemplo-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=18 <20"
+  }
+}
