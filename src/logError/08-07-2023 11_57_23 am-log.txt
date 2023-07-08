@@ -1,0 +1,7 @@
+Hora de error: julio 8º 2023, 11:57:23 am
+Código error: 42601
+Mensaje error: Error de sintaxis en la consulta, revise el código.
+Stack Error: error: error de sintaxis en o cerca de «SELECTT»
+    at D:\BOOTCAMP JS - CLASES EN VIVO\MOD 7\DIA4 - cloud webservice\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///D:/BOOTCAMP%20JS%20-%20CLASES%20EN%20VIVO/MOD%207/DIA4%20-%20cloud%20webservice/src/models/Usuario.models.js:17:29

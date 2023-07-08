@@ -12,8 +12,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 
 //middlewares
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json()); //req.body
+app.use(express.urlencoded({ extended: true })); //req.body
 app.use(cors());
 app.use(morgan("tiny"));
 
